@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4696f22437c9adc41b3b62685467039b, type: 3}
+  m_Name: AbilityTornado
+  m_EditorClassIdentifier: 
+  Tag: tornado
+  Name: Tornado
+  Description: Create tornados around you
+  Icon: {fileID: 21300000, guid: 475a3cf64c02530459a22bc7f13f68a3, type: 3}
+  Sound: {fileID: 8300000, guid: a652877b012108e41871f867ada9f176, type: 3}
+  Prefab: {fileID: 1986894014053289914, guid: 24d58c635d7e53243ba3fb98899118b6, type: 3}
+  Damage: 20
+  Duration: 5
+  Cooldown: 3
+  Range: 1
+  ProjectileCount: 1
+  ProjectileHits: 0
+  ProjectileSpeed: 1
+  Levels:
+  - Attribute: {fileID: 11400000, guid: fabd4bd0f12464743a290dba745e7e58, type: 2}
+    Bonus: -0.1
+  - Attribute: {fileID: 11400000, guid: 76dc5c7ea04fb144bb04fb9fbafdc985, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: ec268ca575b88814f90a33dea872e03d, type: 2}
+    Bonus: 1
+  - Attribute: {fileID: 11400000, guid: fabd4bd0f12464743a290dba745e7e58, type: 2}
+    Bonus: -0.1
+  - Attribute: {fileID: 11400000, guid: 76dc5c7ea04fb144bb04fb9fbafdc985, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 1edc5cab1b3681b479d6b996c049cae2, type: 2}
+    Bonus: 0.2

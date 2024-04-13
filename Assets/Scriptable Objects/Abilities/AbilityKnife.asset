@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4696f22437c9adc41b3b62685467039b, type: 3}
+  m_Name: AbilityKnife
+  m_EditorClassIdentifier: 
+  Tag: knife
+  Name: Knife
+  Description: Throws knifes towards facing direction
+  Icon: {fileID: 21300000, guid: 0f8bdc3151e3d8a46aa93b44c5197b1c, type: 3}
+  Sound: {fileID: 8300000, guid: 6fc83f27aef75d7428598426dd0261d1, type: 3}
+  Prefab: {fileID: 1704054459019739420, guid: 04589a4e90d463245b222a57067058e2, type: 3}
+  Damage: 30
+  Duration: 4
+  Cooldown: 2
+  Range: 1
+  ProjectileCount: 1
+  ProjectileHits: 1
+  ProjectileSpeed: 10
+  Levels:
+  - Attribute: {fileID: 11400000, guid: fabd4bd0f12464743a290dba745e7e58, type: 2}
+    Bonus: -0.1
+  - Attribute: {fileID: 11400000, guid: 027bd632cbd756349a81f010b3120e66, type: 2}
+    Bonus: 1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.15
+  - Attribute: {fileID: 11400000, guid: ec268ca575b88814f90a33dea872e03d, type: 2}
+    Bonus: 1
+  - Attribute: {fileID: 11400000, guid: fabd4bd0f12464743a290dba745e7e58, type: 2}
+    Bonus: -0.2
+  - Attribute: {fileID: 11400000, guid: 027bd632cbd756349a81f010b3120e66, type: 2}
+    Bonus: 1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.2
+  - Attribute: {fileID: 11400000, guid: ec268ca575b88814f90a33dea872e03d, type: 2}
+    Bonus: 1
+  - Attribute: {fileID: 11400000, guid: 737a8625d3350e64ebbce1cd999374c4, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: ec268ca575b88814f90a33dea872e03d, type: 2}
+    Bonus: 1

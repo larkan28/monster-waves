@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4696f22437c9adc41b3b62685467039b, type: 3}
+  m_Name: AbilityEarthSpike
+  m_EditorClassIdentifier: 
+  Tag: earth_spikes
+  Name: Eath Spikes
+  Description: Create spikes in your path
+  Icon: {fileID: 21300000, guid: 7bf443087f506b1479da5433472e9b4b, type: 3}
+  Sound: {fileID: 8300000, guid: 023ea3ddeaa8dd146b7633a0800e5a0e, type: 3}
+  Prefab: {fileID: 6456107187759193874, guid: 6f2d07293e0c8f04db1a3c85c425bd24, type: 3}
+  Damage: 25
+  Duration: 1.5
+  Cooldown: 0.5
+  Range: 1
+  CriticalDamage: 0
+  CriticalChance: 0
+  ProjectileCount: 1
+  ProjectileHits: 2
+  ProjectileSpeed: 0
+  Levels:
+  - Attribute: {fileID: 11400000, guid: fabd4bd0f12464743a290dba745e7e58, type: 2}
+    Bonus: -0.1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 76dc5c7ea04fb144bb04fb9fbafdc985, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 1edc5cab1b3681b479d6b996c049cae2, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: fabd4bd0f12464743a290dba745e7e58, type: 2}
+    Bonus: -0.1
+  - Attribute: {fileID: 11400000, guid: 76dc5c7ea04fb144bb04fb9fbafdc985, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: ec268ca575b88814f90a33dea872e03d, type: 2}
+    Bonus: 1
+  - Attribute: {fileID: 11400000, guid: 251b97a54b9fbf2448b81439d3acc753, type: 2}
+    Bonus: 0.1
+  - Attribute: {fileID: 11400000, guid: 1edc5cab1b3681b479d6b996c049cae2, type: 2}
+    Bonus: 0.1
